@@ -1,0 +1,99 @@
+.border {
+  border: 10px ridge #4d3a78;
+  text-align: center;
+  background-color: #753476;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1px 5px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+}
+
+.border {
+  display: inline-block;
+}
+
+
+img {
+  border: 10px ridge #4d3a78;
+  text-align: center;
+  background-color: #753476;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1px 5px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+ 
+}
+
+iframe {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+.center {
+	position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#topnav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: Black;
+  font-size: 15px;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+  color: #ffff33;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+#logo {
+  width: 120px;
+  background-color: #4d3a78;
+  font-weight: bold;
+}
+
+#about {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
+  color: #ffff33;
+  background-image: url("https://img.clipart-library.com/2/clip-sparkling-gif/clip-sparkling-gif-25.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+  .nav-link {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+    color: #ffff33;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
